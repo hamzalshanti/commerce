@@ -1,0 +1,53 @@
+
+
+
+* {
+	direction: rtl;
+}
+
+
+main .wrraper nav.navigator a{
+	border-radius: unset;
+ 	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
+}
+
+.table-container #table_id_wrapper #table_id th {
+    text-align: right;
+}
+
+header .acc-options{
+	margin-left: 0;
+	margin-right: auto;
+}
+
+nav li,
+nav a,
+.welcome,
+legend,
+#table_id td {
+	text-align: right!important;
+}
+
+main .wrraper nav.navigator{
+	right: -15.5rem;
+}
+
+.add{
+	transform: translateX(-15.5rem);
+
+}
+
+
+/*  add */
+
+fieldset.add-form input {
+	border: 0;
+    border-left: 1px solid gray;
+}
+
+
+
+form div.input-wrap input:last-of-type{
+	border-left: 0;
+}
